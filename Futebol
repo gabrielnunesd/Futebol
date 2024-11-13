@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos de Futebol</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video {
+            margin: 20px 0;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+        }
+        .description {
+            margin-top: 10px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos de Futebol</h1>
+
+    <div class="video">
+        <h2>Video 1: Partida emocionante</h2>
+        <iframe src="https://www.youtube.com/embed/Av5YeL-RrVA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="description">Uma análise detalhada de uma partida emocionante que teve grandes jogadas.</p>
+    </div>
+
+    <div class="video">
+        <h2>Video 2: Melhores Momentos</h2>
+        <iframe src="https://www.youtube.com/embed/1cGSmQhPAKE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="description">Confira os melhores momentos de uma das maiores partidas do ano.</p>
+    </div>
+
+</body>
+</html>
